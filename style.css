@@ -1,0 +1,12 @@
+body{
+    background: rgb(186,186,186);
+    background: linear-gradient(90deg, rgba(186,186,186,1) 0%, rgba(92,92,92,1) 87%);
+}
+.container{
+    margin-top: 100px;
+}
+.main{
+    border-radius: 25px;
+    min-width: 700px;
+    margin: auto;
+}
