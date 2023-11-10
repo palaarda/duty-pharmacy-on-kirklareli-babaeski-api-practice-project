@@ -8,13 +8,20 @@ async function getPh(){
         }
     })
     datajson = await phData.json();
+    aData= datajson.data;
     let pharmacyName = document.getElementById("phName")
     let city = document.getElementById("cityText");
     let adress = document.getElementById("adressText");
     let phoneNumber = document.getElementById("phoneNmb");
-    pharmacyName.innerHTML = datajson.data[0].EczaneAdi;
-    city.innerHTML = datajson.data[0].Sehir;
-    adress.innerHTML = datajson.data[0].Adresi;
-    phoneNumber.innerHTML = datajson.data[0].Telefon;
+    
+    const phS = aData.filter(function(aDatas){
+        return aDatas.Semt == false;
+    })
+    
+    pharmacyName.innerHTML = phS[0].EczaneAdi;
+    city.innerHTML = phS[0].Sehir;
+    adress.innerHTML = phS[0].Adresi;
+    phoneNumber.innerHTML = phS[0].Telefon;
+
 } 
 getPh();
