@@ -11,12 +11,11 @@ async function getPh(){
       }
     });
     datajson = await pharmacys.json();
-    pharmacyData = datajson.data;
 
 
-    pharmacyName.innerHTML = datajson.result[1].name;
-    city.innerHTML = datajson.result[1].dist;
-    adress.innerHTML = datajson.result[1].address;
-    phoneNumber.innerHTML = datajson.result[1].phone;
+    pharmacyName.innerHTML = datajson.result[0].name;
+    city.innerHTML = datajson.result[0].dist;
+    adress.innerHTML = datajson.result[0].address;
+    phoneNumber.innerHTML = datajson.result[0].phone;
 } 
 getPh();
