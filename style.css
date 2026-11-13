@@ -1,12 +1,74 @@
-body{
-    background: rgb(186,186,186);
-    background: linear-gradient(90deg, rgba(186,186,186,1) 0%, rgba(92,92,92,1) 87%);
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #d1d1d1 0%, #777777 100%);
+    font-family: Arial, Helvetica, sans-serif;
 }
-.container{
+
+.container {
     margin-top: 100px;
+    margin-bottom: 50px;
 }
-.main{
-    border-radius: 25px;
-    min-width: 700px;
+
+.main {
+    width: 100%;
+    max-width: 900px;
     margin: auto;
+    padding: 55px 40px !important;
+    border-radius: 25px;
+    background-color: #212529 !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.main h1 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.main h3 {
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+
+.main h4 {
+    font-size: 1.15rem;
+    margin-bottom: 22px;
+    overflow-wrap: anywhere;
+}
+
+.main a {
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.main a:hover {
+    color: #adb5bd !important;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 40px;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .main {
+        padding: 35px 20px !important;
+        border-radius: 18px;
+    }
+
+    .main h1 {
+        font-size: 1.7rem;
+    }
+
+    .main h3 {
+        font-size: 1.2rem;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .main h4 {
+        font-size: 1rem;
+    }
 }
