@@ -1,5 +1,18 @@
-# Duty Pharmacy on Kırklareli/Babaeski. API Practice Project
-## Live Demo:
-https://palaarda.github.io/duty-pharmacy-on-kirklareli-babaeski-api-practice-project/ <br/>
-Benim API keyim çalışır fakat çalışmazsa şu adresten alabilirsiniz: https://collectapi.com/tr/api/health/nobetci-eczane-api<br/>
+# Duty Pharmacy – Babaeski
 
+A simple practice project built to learn JavaScript and REST API integration.
+
+Displays the on-duty pharmacy information for Babaeski, Kırklareli using the CollectAPI Duty Pharmacy API.
+
+## Technologies
+- HTML
+- CSS
+- JavaScript
+- Bootstrap 5
+- Fetch API
+
+## Live Demo
+[View Demo](https://palaarda.github.io/duty-pharmacy-on-kirklareli-babaeski-api-practice-project/)
+
+## API
+[CollectAPI – Duty Pharmacy](https://collectapi.com/tr/api/health/nobetci-eczane-api)
