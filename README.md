@@ -11,8 +11,5 @@ Displays the on-duty pharmacy information for Babaeski, Kırklareli using the Co
 - Bootstrap 5
 - Fetch API
 
-## Live Demo
-[View Demo](https://palaarda.github.io/duty-pharmacy-on-kirklareli-babaeski-api-practice-project/)
-
 ## API
 [CollectAPI – Duty Pharmacy](https://collectapi.com/tr/api/health/nobetci-eczane-api)
